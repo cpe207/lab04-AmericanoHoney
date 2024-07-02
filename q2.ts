@@ -1,8 +1,8 @@
 //660610757 ณัฐรดา หนูจิตร
 
-function arrayStringify(a: Array<any>): string
+function arrayStringify(a : Array<number>): string
 {
-  let result: string = `` ;
+  let result = `` ;
   for (let i = 0; i < a.length; i++) {
     result += `${a[i]}`; 
   }
